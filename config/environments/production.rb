@@ -78,5 +78,5 @@ Rails.application.configure do
 
   # Required for Heroku
   # Note to set this to your actual host
-  config.action_mailer.default_url_options = { :host => 'sleepy-basin-3402.herokuapp.com'}
+  config.action_mailer.default_url_options = { :host => 'stark-tundra-9218.herokuapp.com'}
 end
