@@ -4,4 +4,6 @@ class Pin < ActiveRecord::Base
 
 	has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "100x100>" }
 
+validates :description, persence: true
+validates :image, persence: true
 end
